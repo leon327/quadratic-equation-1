@@ -1,14 +1,14 @@
 /**
  * Created by serg on 03.12.13.
  */
-var a = 2;
-var b = 6;
+var a = 1;
+var b = 4;
 var c = 4;
 
 if (a!=null && b!=null && c!=null)
 {
 var d = Math.pow(b, 2) - (4*a*c);
-if (d>0)
+if (d >= 0)
     {
         if (d == 0)
             {
