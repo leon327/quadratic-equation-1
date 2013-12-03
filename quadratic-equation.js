@@ -1,8 +1,8 @@
 /**
  * Created by serg on 03.12.13.
  */
-var a = 1;
-var b = 4;
+var a = 2;
+var b = 6;
 var c = 4;
 
 if (a!=null && b!=null && c!=null)
