@@ -5,6 +5,8 @@ var a = 2;
 var b = 6;
 var c = 4;
 
+if (a!=null && b!=null && c!=null)
+{
 var d = Math.pow(b, 2) - (4*a*c);
 if (d>0)
     {
@@ -24,4 +26,9 @@ else
     {
         console.log("Нет корней !")
     }
+}
+else
+{
+    console.log("Введите переменные !");
+}
 
