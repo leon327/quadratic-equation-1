@@ -5,30 +5,30 @@ var a = 2;
 var b = 6;
 var c = 4;
 
-if (a!=null && b!=null && c!=null)
+if (a != null && b != null && c != null)
 {
-var d = Math.pow(b, 2) - (4*a*c);
-if (d >= 0)
+  var d = Math.pow(b, 2) - (4 * a * c);
+  if (d >= 0)
+  {
+    if (d == 0)
     {
-        if (d == 0)
-            {
-                var x1 = (-b + Math.sqrt(d))/(2*a);
-                console.log("x1 = x2 = "+x1);
-            }
-        else
-            {
-                var x1 = (-b + Math.sqrt(d))/(2*a);
-                var x2 = (-b - Math.sqrt(d))/(2*a);
-                console.log("x1= "+x1+"; x2= "+x2);
-            }
+      var x1 = (-b + Math.sqrt(d)) / (2 * a);
+      console.log('x1 = x2 = ' + x1);
     }
-else
+    else
     {
-        console.log("Нет корней !")
+      var x1 = (-b + Math.sqrt(d)) / (2 * a);
+      var x2 = (-b - Math.sqrt(d)) / (2 * a);
+      console.log('x1= ' + x1 + '; x2= ' + x2);
     }
+  }
+  else
+  {
+    console.log('Нет корней !');
+  }
 }
 else
 {
-    console.log("Введите переменные !");
+  console.log('Введите переменные !');
 }
 
