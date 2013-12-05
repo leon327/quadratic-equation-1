@@ -1,3 +1,8 @@
+/**
+ * @param {number} a
+ * @param {number} b
+ * @param {number} c
+ */
 function quadraticEquation(a, b, c) {
   var x1;
   var x2;
